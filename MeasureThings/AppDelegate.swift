@@ -9,6 +9,8 @@
 import UIKit
 import CoreData
 
+var blnRun:Bool!
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
