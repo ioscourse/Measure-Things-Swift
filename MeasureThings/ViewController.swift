@@ -151,7 +151,7 @@ class ViewController: UIViewController {
         
          let tap:UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "DismissKeyboard")
 
-       
+       self.view.center = self.view.center
         
     }
     override func didReceiveMemoryWarning() {
